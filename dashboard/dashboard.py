@@ -1,8 +1,8 @@
-    import streamlit as st
-    import pandas as pd
-    import matplotlib.pyplot as plt
-    import seaborn as sns
-    import datetime as dt
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import datetime as dt
 
     #config
     st.set_page_config(page_title="Dashboard penjualan", layout="wide")
