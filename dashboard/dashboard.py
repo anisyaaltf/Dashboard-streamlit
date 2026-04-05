@@ -12,7 +12,7 @@ st.title("Dashboard analisis penjualan")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('main_data.csv')
+    df = pd.read_csv('dashboard/main_data.csv')
     df['order_purchase_timestamp'] = pd.to_datetime(df['order_purchase_timestamp'])        
     df['month'] = df['order_purchase_timestamp'].dt.to_period('M').astype(str)
     return df
