@@ -8,6 +8,7 @@
 
 # Setup Folder
 mkdir proyek_analisis_data
+
 cd proyek_analisis_data
 
 # Run streamlit App
